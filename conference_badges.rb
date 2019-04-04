@@ -11,7 +11,7 @@ end
 def assign_rooms(attendees)
   list = []
   i = 0
-  until i > attendees.size
+  until i >= attendees.size
     list << "Hello, #{attendees[i]}! You'll be assigned to room #{i + 1}!"
     i += 1
   end
