@@ -15,6 +15,7 @@ def assign_rooms(attendees)
     list << "Hello, #{attendees[i]}! You'll be assigned to room #{i}!"
     i += 1
   end
+  return list
 end
 
 def printer(attendees)
